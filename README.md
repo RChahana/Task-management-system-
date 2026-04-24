@@ -118,9 +118,9 @@ python sdk_example.py
 
 ---
 
-## **Manual Setup**
+## Manual Setup
 
-### **Backend**
+## Backend
 
 ```bash
 cd backend
