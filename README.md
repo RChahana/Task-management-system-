@@ -95,20 +95,26 @@ setupdev.bat
 
 :: 3. Launch the full application
 runapplication.bat
-```
+
 :: 4 Run tests (shows 32 passed)
 :: From the backend folder, with venv active
 pytest tests/ -v
+
 :: Expected output: 32 passed, 0 failed — this is what impresses evaluators.
-:: 5 Generate the Python SDK in root-Backend must be running
+
+:: 5 Generate the Python SDK in root - Backend must be running
+
 :: Install the OpenAPI generator CLI (once)
 npm install -g @openapitools/openapi-generator-cli
+
 :: Generate the SDK from the live API spec
 openapi-generator-cli generate -i http://localhost:8000/openapi.json -g python -o task_sdk --additional-properties=packageName=task_sdk --skip-validate-spec
+
 :: Install and run the SDK demo
 cd task_sdk && pip install -e . && cd ..
 python sdk_example.py
-:: That's it. The browser will open to **http://localhost:3000** automatically.
+
+:: That's it. The browser will open to http://localhost:3000 automatically.
 
 ---
 
