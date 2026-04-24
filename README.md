@@ -120,7 +120,7 @@ python sdk_example.py
 
 ## Manual Setup
 
-## Backend
+### Backend
 
 ```bash
 cd backend
