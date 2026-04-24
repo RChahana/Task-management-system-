@@ -115,7 +115,7 @@ cd task_sdk && pip install -e . && cd ..
 python sdk_example.py
 
 :: That's it. The browser will open to http://localhost:3000 automatically.
-
+```
 ---
 
 ## Manual Setup
