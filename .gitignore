@@ -1,0 +1,31 @@
+# Python
+env/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+
+# Databases
+*.db
+*.sqlite3
+
+# Node
+node_modules/
+.env
+.env.local
+npm-debug.log*
+
+# Generated SDK (regenerate with generate_sdk.bat)
+task_sdk/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.suo
