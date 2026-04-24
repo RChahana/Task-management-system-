@@ -19,7 +19,7 @@ node_modules/
 npm-debug.log*
 
 # Generated SDK (regenerate with generate_sdk.bat)
-task_sdk/
+# task_sdk/
 
 # OS
 .DS_Store
